@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+
+.menu-item{
+    font-weight: bold;
+    color: #888888;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.active{
+    color: #ccc;
+}
+
+.logo-img{
+    width: 40px;
+}
+.image-item{
+    cursor: wait;
+}
+.image-item{
+    overflow: hidden;
+}
+.image-item img{ transition: all .6s ease-in-out; }
+.image-item:hover img{ transform: scale(1.1); }
+
+.white{
+    color: white;
+}
+.red{
+    color: red;
+}
